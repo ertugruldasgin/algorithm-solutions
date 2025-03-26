@@ -17,11 +17,12 @@ This repository is part of my journey to improve problem-solving skills and buil
 
 ```
 algorithm-solutions/
-├── leetcode/
-├── codeforces/
 ├── algoleague/
+├── codeforces/
 ├── cses/
 ├── hackerrank/
+├── leetcode/
+├── LICENSE
 └── README.md
 ```
 
