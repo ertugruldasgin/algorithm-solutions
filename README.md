@@ -14,6 +14,8 @@ This repository is part of my journey to improve problem-solving skills and buil
 
 ## 📁 Folder Structure
 
+
+```
 algorithm-solutions/
 ├── leetcode/
 ├── codeforces/
@@ -21,6 +23,7 @@ algorithm-solutions/
 ├── cses/
 ├── hackerrank/
 └── README.md
+```
 
 Each folder contains source code solutions categorized by platform.
 
@@ -45,5 +48,5 @@ Each folder contains source code solutions categorized by platform.
 
 ---
 
-Feel free to explore, fork, or get inspired 🚀
+Feel free to explore, fork, or get inspired 🚀  
 MIT Licensed © 2025 Umut Ertuğrul Daşgın
