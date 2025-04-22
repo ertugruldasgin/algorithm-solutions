@@ -1,0 +1,41 @@
+// CSES Problem Set - 1069. Repetitions
+// Link: https://cses.fi/problemset/task/1069
+// Language: C++
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define ll long long
+#define int long long
+#define endl "\n"
+
+const int MAX = 2e5;
+const int MOD = 1e9+7;
+const int INF = 1e18;
+
+signed main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+
+    #ifndef ONLINE_JUDGE
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    #endif
+    
+    string str; cin >> str;
+    int n = str.size();
+
+    int maxLen = 1, currentLen = 1;
+    for (int i = 1; i < n; i++) {
+        if (str[i] == str[i-1]) {
+            currentLen++;
+        } else {
+            currentLen = 1;
+        }
+        maxLen = max(maxLen, currentLen);
+    }
+
+    cout << maxLen << endl;
+    return 0;
+}
