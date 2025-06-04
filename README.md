@@ -43,7 +43,7 @@ Each folder contains source code solutions categorized by platform.
 |--------------|--------|----------|
 | LeetCode     | 218    | 10       |
 | Codeforces   | 24     | 7        |
-| AlgoLeague   | 104    | 0        |
+| AlgoLeague   | 105    | 0        |
 | CSES         | 23     | 23       |
 | HackerRank   | 3      | 0        |
 
